@@ -1,0 +1,91 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border-radius: 30%;
+}
+
+body {
+    font-family: 'Trocchi', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* .first-circle {
+    opacity: 0.5;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+.second-circle {
+    opacity: 0.5;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+}
+
+
+.third-circle {
+    opacity: 0.5;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+.fourth-circle {
+    opacity: 0.5;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    float: right;
+}
+
+.fifth-circle {
+    opacity: 0.5;
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    float: right;
+} */
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
