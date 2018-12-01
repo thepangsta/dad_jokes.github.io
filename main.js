@@ -5,6 +5,7 @@ var jokes = [
     'q: what did the buffalo say to his son at school dropoff? bison',
     'q: what did the bread say to the angry bread? why you sour dough?',
     'q: want to hear a joke about paper? nevermind, it\'s tearable',
+    'q: how do you organize a party in space? you planet'
 ]
 
 function newJoke() {
@@ -12,20 +13,12 @@ function newJoke() {
     document.getElementById('jokeDisplay').innerHTML = jokes[randomNumber];
 }
 
-window.onload = choosePic;
+// window.onload = choosePic;
 
-var dadPix = new Array("dad photos/lightbulb.jpg", "dad photos/tie.jpg", "dad photos/grandpa.jpg", "dad photos/thumbs.jpg")
+var dadPix = new Array("Dad_Jokes/dad photos/confused.jpg", "Dad_Jokes/dad photos/tie.jpg", "Dad_Jokes/dad photos/grandpa.jpg", 
+"Dad_Jokes/dad photos/thumbs.jpg", "Dad_Jokes/dad photos/lightbulb.jpg")
 
 function choosePic() {
     var randomNum = Math.floor(Math.random() * dadPix.length);
     document.getElementById("dadPhoto").src = dadPix[randomNum];
-}s
-
-// $(document).ready(function(){
-//     $("#hide").click(function(){
-//         $("p").hide();
-//     });
-//     $("#show").click(function(){
-//         $("p").show();
-//     });
-// });
+}
