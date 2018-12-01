@@ -16,7 +16,7 @@ function newJoke() {
 // window.onload = choosePic;
 
 var dadPix = new Array("Dad_Jokes/dad photos/confused.jpg", "Dad_Jokes/dad photos/tie.jpg", "Dad_Jokes/dad photos/grandpa.jpg", 
-"Dad_Jokes/dad photos/thumbs.jpg", "Dad_Jokes/dad photos/lightbulb.jpg")
+"Dad_Jokes/dad photos/thumbs.jpg", "Dad_Jokes/dad photos/lightbulb.jpg", "Dad_Jokes/dad photos/great idea.jpg")
 
 function choosePic() {
     var randomNum = Math.floor(Math.random() * dadPix.length);
